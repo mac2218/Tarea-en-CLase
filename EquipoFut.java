@@ -1,3 +1,5 @@
+//Esta es la clase padre la cual mantiene una relacion de herencia con delantero y portero
+
 public abstract class EquipoFut{
     
     protected String nombre;

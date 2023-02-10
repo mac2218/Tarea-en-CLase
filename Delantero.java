@@ -1,3 +1,4 @@
+
 public class Delantero extends EquipoFut {
     
     private int cantPases;
