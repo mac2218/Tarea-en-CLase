@@ -18,5 +18,13 @@ public class Delantero extends EquipoFut {
         this.golesFallados = golesFallados;
 
     }
-    
+
+
+    public int getCantPases() {
+        return this.cantPases;
+    }
+
+    public void setCantPases(int cantPases) {
+        this.cantPases = cantPases;
+    }   
 }
