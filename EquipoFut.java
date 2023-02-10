@@ -1,8 +1,8 @@
 public abstract class EquipoFut{
     
     protected String nombre;
-    protected  String apellido;
-    protected  int numJugador;
+    protected String apellido;
+    protected int numJugador;
 
     public EquipoFut(){
         nombre = "";
