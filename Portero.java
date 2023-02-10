@@ -21,29 +21,41 @@ public class Portero extends EquipoFut{
 
     }
 
-    public int getGolesAnotados() {
-        return this.golesAnotados;
+
+    public int getPorteriasCero() {
+        return this.porteriasCero;
     }
 
-    public void setGolesAnotados(int golesAnotados) {
-        this.golesAnotados = golesAnotados;
+    public void setPorteriasCero(int porteriasCero) {
+        this.porteriasCero = porteriasCero;
     }
 
-    public int getGolesFallados() {
-        return this.golesFallados;
+    public int getGolesEncajados() {
+        return this.golesEncajados;
     }
 
-    public void setGolesFallados(int golesFallados) {
-        this.golesFallados = golesFallados;
-    }
-    
-    public int getCantPases() {
-        return this.cantPases;
+    public void setGolesEncajados(int golesEncajados) {
+        this.golesEncajados = golesEncajados;
     }
 
-    public void setCantPases(int cantPases) {
-        this.cantPases = cantPases;
-    }   
+    public int getGolesAtajados() {
+        return this.golesAtajados;
+    }
+
+    public void setGolesAtajados(int golesAtajados) {
+        this.golesAtajados = golesAtajados;
+    }
+
+    @Override
+    public String toString(){
+        String resultado = super.toString();
+        resultado = resultado + "Cantidad de porterias cero: " + getPorteriasCero() + "\n" +
+            ", Goles encajados:'" + getGolesEncajados() + "\n" + 
+            ", Goles atajados:" + getGolesAtajados() + "\n" +
+            "}";
+            return resultado;
+    }
+
 }
 
     
