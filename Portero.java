@@ -17,33 +17,10 @@ public class Portero extends EquipoFut{
         this.porteriasCero = porteriasCero;
         this.golesEncajados = golesEncajados;
         this.golesAtajados = golesAtajados;
-        this.faltas = faltas;
 
     }
 
-    public int getGolesAnotados() {
-        return this.golesAnotados;
-    }
-
-    public void setGolesAnotados(int golesAnotados) {
-        this.golesAnotados = golesAnotados;
-    }
-
-    public int getGolesFallados() {
-        return this.golesFallados;
-    }
-
-    public void setGolesFallados(int golesFallados) {
-        this.golesFallados = golesFallados;
-    }
-    
-    public int getCantPases() {
-        return this.cantPases;
-    }
-
-    public void setCantPases(int cantPases) {
-        this.cantPases = cantPases;
-    }   
+   
 }
 
     
