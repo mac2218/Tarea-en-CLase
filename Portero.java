@@ -17,10 +17,8 @@ public class Portero extends EquipoFut{
         this.porteriasCero = porteriasCero;
         this.golesEncajados = golesEncajados;
         this.golesAtajados = golesAtajados;
-        this.faltas = faltas;
 
     }
-
 
     public int getPorteriasCero() {
         return this.porteriasCero;
@@ -55,7 +53,6 @@ public class Portero extends EquipoFut{
             "}";
             return resultado;
     }
-
 }
 
     
