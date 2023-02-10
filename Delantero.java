@@ -29,5 +29,41 @@ public class Delantero extends EquipoFut {
 
     public void setCantPases(int cantPases) {
         this.cantPases = cantPases;
-    }   
+    }  
+    
+
+    public int getGolesAnotados() {
+        return this.golesAnotados;
+    }
+
+    public void setGolesAnotados(int golesAnotados) {
+        this.golesAnotados = golesAnotados;
+    }
+
+    public int getGolesFallados() {
+        return this.golesFallados;
+    }
+
+    public void setGolesFallados(int golesFallados) {
+        this.golesFallados = golesFallados;
+    }
+
+    public int getFaltas() {
+        return this.faltas;
+    }
+
+    public void setFaltas(int faltas) {
+        this.faltas = faltas;
+    }
+
+    @Override
+    public String toString(){
+        String resultado = super.toString();
+        resultado = resultado + "Cantidad de pases: " + getCantPases() + "\n" +
+            ", Goles anotados:'" + getGolesAnotados() + "\n" + 
+            ", Goles fallados:" + getGolesFallados() + "\n" +
+            ", Faltas:" + getFaltas() + "\n" +
+            "}";
+            return resultado;
+    }
 }
