@@ -45,10 +45,9 @@ public abstract class EquipoFut{
 
     @Override
     public String toString(){
-        return "{" +
-            " Nombre:'" + getNombre() + "'" +
-            ", Apellido:'" + getApellido() + "'" +
-            ", Numero de jugador:'" + getNumJugador() + "'" +
-            "}";
+        return 
+            "\n" + " Nombre: " + getNombre() + "\n" +
+            " Apellido: " + getApellido() + "\n" +
+            " Numero de jugador: " + getNumJugador() + "\n";
     }
 }

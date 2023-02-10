@@ -47,10 +47,9 @@ public class Portero extends EquipoFut{
     @Override
     public String toString(){
         String resultado = super.toString();
-        resultado = resultado + "Cantidad de porterias cero: " + getPorteriasCero() + "\n" +
-            ", Goles encajados:'" + getGolesEncajados() + "\n" + 
-            ", Goles atajados:" + getGolesAtajados() + "\n" +
-            "}";
+        resultado = resultado + " Cantidad de porterias cero: " + getPorteriasCero() + "\n" +
+            " Goles encajados:'" + getGolesEncajados() + "\n" + 
+            " Goles atajados:" + getGolesAtajados() + "\n";
             return resultado;
     }
 }

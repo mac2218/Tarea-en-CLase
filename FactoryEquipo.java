@@ -3,16 +3,11 @@
 
 public class FactoryEquipo{
 
-    public static EquipoFut getEquipoFut(String tipo){
-
-        if(tipo.equals("Delantero")){
-
-            return new Delantero();
-
-        }else{
-            return new Portero();
-        }
-
+    public static Delantero getDelantero(){
+        return new Delantero();
     }
     
+    public static Portero getPortero(){
+        return new Portero();
+    }
 }

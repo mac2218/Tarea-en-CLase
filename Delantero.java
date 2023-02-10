@@ -60,11 +60,10 @@ public class Delantero extends EquipoFut {
     @Override
     public String toString(){
         String resultado = super.toString();
-        resultado = resultado + "Cantidad de pases: " + getCantPases() + "\n" +
-            ", Goles anotados:'" + getGolesAnotados() + "\n" + 
-            ", Goles fallados:" + getGolesFallados() + "\n" +
-            ", Faltas:" + getFaltas() + "\n" +
-            "}";
+        resultado = resultado + " Cantidad de pases: " + getCantPases() + "\n" +
+            " Goles anotados:'" + getGolesAnotados() + "\n" + 
+            " Goles fallados:" + getGolesFallados() + "\n" +
+            " Faltas:" + getFaltas() + "\n";
             return resultado;
     }
 }
